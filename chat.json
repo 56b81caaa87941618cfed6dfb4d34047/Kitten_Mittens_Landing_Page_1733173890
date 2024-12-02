@@ -75,5 +75,15 @@
         "source": "base_assistant",
         "content": "The header text has been changed to \"KITTEN MITTENS\". What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "b7a313cf-ca4a-410a-aa21-5d0dbdf4e768",
+        "timestamp": "2024-12-02T22:18:17.618810Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Please change the hero text to something catchier",
+        "metadata": {
+            "component_id": "Hero1733173893"
+        }
     }
 ]
