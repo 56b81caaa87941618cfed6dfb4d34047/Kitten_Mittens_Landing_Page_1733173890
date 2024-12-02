@@ -151,5 +151,15 @@
         "source": "base_assistant",
         "content": "The hero text has been updated to something catchier. What's next on your list?",
         "metadata": {}
+    },
+    {
+        "id": "ee2f21f6-bc20-4eaa-90bb-b5e88ecda91d",
+        "timestamp": "2024-12-02T22:19:25.925305Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Remove all of the exclamation points from this component",
+        "metadata": {
+            "component_id": "Hero1733173893"
+        }
     }
 ]
