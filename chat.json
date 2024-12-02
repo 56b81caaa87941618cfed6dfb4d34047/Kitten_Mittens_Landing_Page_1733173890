@@ -161,5 +161,20 @@
         "metadata": {
             "component_id": "Hero1733173893"
         }
+    },
+    {
+        "id": "44b8633d-74a9-4eb9-baa5-8b1a147bf456",
+        "timestamp": "2024-12-02T22:19:28.218628Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_9HifHa653X4lw2WiNTxoS6Kb",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1733173893\",\"change_description\":\"Remove all exclamation points from the text\",\"acknowledgement_message\":\"Removing all exclamation points from the hero text...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
     }
 ]
