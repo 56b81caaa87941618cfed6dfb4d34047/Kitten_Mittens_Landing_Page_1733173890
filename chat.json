@@ -202,5 +202,15 @@
         "source": "base_assistant",
         "content": "All exclamation points have been removed from the hero component. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "42ae6c3b-a18f-46b5-936a-b29d3b69e1e0",
+        "timestamp": "2024-12-03T17:35:40.280773Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Please change the background to green",
+        "metadata": {
+            "component_id": "Hero1733173893"
+        }
     }
 ]
