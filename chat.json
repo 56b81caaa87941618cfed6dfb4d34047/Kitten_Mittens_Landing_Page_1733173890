@@ -355,5 +355,15 @@
         "source": "base_assistant",
         "content": "The header text has been changed to \"cat gloves\". What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "6577658b-e0f9-43fa-9ef9-5596d431d82e",
+        "timestamp": "2024-12-03T19:16:00.227365Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Pleaes change the background to green",
+        "metadata": {
+            "component_id": "Header1733173893"
+        }
     }
 ]
