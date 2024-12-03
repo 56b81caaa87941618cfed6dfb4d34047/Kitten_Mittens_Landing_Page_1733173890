@@ -424,5 +424,15 @@
         "source": "base_assistant",
         "content": "The background color of the header component has been changed to green. Is there anything else you would like to modify?",
         "metadata": {}
+    },
+    {
+        "id": "64e93a42-7aea-4b67-837e-67bc46bcf8cc",
+        "timestamp": "2024-12-03T20:17:28.812429Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Please change the background color to blue in the HEADER",
+        "metadata": {
+            "component_id": "Header1733173893"
+        }
     }
 ]
