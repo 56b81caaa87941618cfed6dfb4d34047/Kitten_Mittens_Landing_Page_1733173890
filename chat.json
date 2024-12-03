@@ -304,5 +304,15 @@
         "source": "base_assistant",
         "content": "The background color of the hero component has been changed to red. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "90df7650-32b6-49ce-a337-088151bf11d0",
+        "timestamp": "2024-12-03T17:40:40.828646Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Please change the title from 'KITTEN MITTENS' to 'cat gloves'",
+        "metadata": {
+            "component_id": "Header1733173893"
+        }
     }
 ]
