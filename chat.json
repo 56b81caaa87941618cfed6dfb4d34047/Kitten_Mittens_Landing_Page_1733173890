@@ -373,5 +373,15 @@
         "source": "base_assistant",
         "content": "To change the background color, please select the component you'd like to update and then describe the background color you'd like to change it to.",
         "metadata": {}
+    },
+    {
+        "id": "d67e8bd7-da49-410f-b72b-806e5a239f7c",
+        "timestamp": "2024-12-03T19:16:34.002523Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Pleaes change the background to green",
+        "metadata": {
+            "component_id": "Header1733173893"
+        }
     }
 ]
