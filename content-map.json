@@ -2,6 +2,7 @@
     "name": "example",
     "prefix": "%#PLACEHOLDER",
     "placeholderMappings": {
+        "Blank": [],
         "Header": [
             "APPLICATION_NAME"
         ],
@@ -12,12 +13,52 @@
         "Footer": [
             "APPLICATION_NAME",
             "FOOTER_TEXT"
+        ],
+        "Newsletter": [
+            "NEWSLETTER_HEADING_TEXT",
+            "NEWSLETTER_SUBHEADING_TEXT",
+            "NEWSLETTER_BUTTON_TEXT"
+        ],
+        "About": [
+            "ABOUT_MISSION_STATMENT",
+            "ABOUT_VISION_STATEMENT",
+            "ABOUT_VALUES_STATEMENT"
+        ],
+        "Contact": [
+            "CONTACT_HEADER_TEXT",
+            "CONTACT_SUBHEADER_TEXT"
+        ],
+        "FAQ": [
+            "FAQ_HEADER_TEXT",
+            "FAQ_SUBHEADER_TEXT",
+            "FAQ_QUESTION_01_TEXT",
+            "FAQ_ANSWER_01_TEXT",
+            "FAQ_QUESTION_02_TEXT",
+            "FAQ_ANSWER_02_TEXT",
+            "FAQ_QUESTION_03_TEXT",
+            "FAQ_ANSWER_03_TEXT"
         ]
     },
     "placeholders": {
         "APPLICATION_NAME": "PurrfectPaws",
         "HERO_HEADING_TEXT": "Introducing Kitten Mittens: Pawsitively Adorable Paw Protection",
         "HERO_SUBHEADING_TEXT": "Keep your feline friend's toes cozy and your furniture scratch-free with our revolutionary Kitten Mittens!",
-        "FOOTER_TEXT": "\u00a9 2023 PurrfectPaws. Keeping kitties comfy, one paw at a time."
+        "FOOTER_TEXT": "\u00a9 2023 PurrfectPaws. Keeping kitties comfy, one paw at a time.",
+        "NEWSLETTER_HEADING_TEXT": "Stay Pawpdated!",
+        "NEWSLETTER_SUBHEADING_TEXT": "Subscribe to our newsletter for the latest Kitten Mittens news, offers, and cute cat content",
+        "NEWSLETTER_BUTTON_TEXT": "Purr-scribe Now",
+        "ABOUT_MISSION_STATMENT": "Our mission is to provide the most comfortable and adorable paw protection for kittens and cats everywhere",
+        "ABOUT_VISION_STATEMENT": "We envision a world where every cat can strut in style and comfort with their very own pair of Kitten Mittens",
+        "ABOUT_VALUES_STATEMENT": "We value feline comfort, cuteness overload, and bringing joy to both cats and their human companions",
+        "CONTACT_HEADER_TEXT": "Get in Touch",
+        "CONTACT_SUBHEADER_TEXT": "Have a question or feedback? We'd love to hear from mew!",
+        "FAQ_QUESTION_01_TEXT": "What are Kitten Mittens?",
+        "FAQ_ANSWER_01_TEXT": "Kitten Mittens are adorable, soft mittens designed specifically for cats to keep their paws warm and protected while looking absolutely fabulous",
+        "FAQ_QUESTION_02_TEXT": "How do I measure my cat's paw size?",
+        "FAQ_ANSWER_02_TEXT": "To measure your cat's paw size, gently press their paw onto a piece of paper and mark the width and length. Refer to our size guide for the purrfect fit!",
+        "FAQ_QUESTION_03_TEXT": "Are Kitten Mittens safe for my cat?",
+        "FAQ_ANSWER_03_TEXT": "Absolutely! Our Kitten Mittens are made from safe, non-toxic materials and designed for comfort. Always supervise your cat when they're wearing their mittens",
+        "FAQ_HEADER_TEXT": "Frequently Asked Questions",
+        "FAQ_SUBHEADER_TEXT": "Got questions? We've got answers! Check out our most common queries below"
     }
 }
