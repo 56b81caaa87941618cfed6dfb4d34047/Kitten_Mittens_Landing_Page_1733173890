@@ -577,5 +577,56 @@
         "source": "base_assistant",
         "content": "The background color of the hero component has been changed to red. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "8248f7c2-92b8-478c-aa56-079f8639622e",
+        "timestamp": "2024-12-19T00:10:23.332448Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Please change the background to green",
+        "metadata": {
+            "component_id": "Hero1733173893"
+        }
+    },
+    {
+        "id": "61f59133-3eec-4770-90a5-cc5ebf2d18f3",
+        "timestamp": "2024-12-19T00:10:25.048384Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_4lZCA5LBmLK1gdT3BUWXzv5Y",
+            "function": {
+                "arguments": "{\"component_id\": \"Hero1733173893\", \"change_description\": \"Change background color to green\", \"acknowledgement_message\": \"Changing the background color of the hero component to green...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "b6cf2e8e-fd27-4522-8846-7137d2afa842",
+        "timestamp": "2024-12-19T00:10:25.094366Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Changing the background color of the hero component to green...",
+        "metadata": {}
+    },
+    {
+        "id": "ba6c89b2-fe84-4f63-8a71-311dec86497b",
+        "timestamp": "2024-12-19T00:10:30.075029Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_4lZCA5LBmLK1gdT3BUWXzv5Y"
+        }
+    },
+    {
+        "id": "81a169b8-4263-4463-a556-9d3e72ebac10",
+        "timestamp": "2024-12-19T00:10:32.038883Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The background color of the hero component has been changed to green. What would you like to do next?",
+        "metadata": {}
     }
 ]
